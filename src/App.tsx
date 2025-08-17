@@ -3,7 +3,6 @@ import { About } from "./components/about";
 import { Contact } from "./components/contact";
 import { Portfolio } from "./components/portfolio";
 import { Services } from "./components/services";
-
 import logo from "./assets/images/Logo.png";
 
 export default function Home() {
