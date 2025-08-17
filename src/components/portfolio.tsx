@@ -11,7 +11,7 @@ export const Portfolio = ({
   const galleryLengthPictures = 15;
   const imagePaths = Array.from(
     { length: galleryLengthPictures },
-    (_, i) => `/gallery${i + 1}.jpg`
+    (_, i) => `${import.meta.env.BASE_URL}/gallery${i + 1}.jpg`
   );
   const [openImageViewer, setOpenImageViewer] = useState(false);
   const [selectedImagePath, setSelectedImagePath] = useState("");
