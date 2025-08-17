@@ -19,7 +19,7 @@ export const Contact = ({
       <div className="flex flex-col md:flex-row gap-4 w-full">
         <div className="bg-black rounded-lg text-white p-4 md:w-1/2">
           <div className="flex gap-3 items-center">
-            <h1 className="font-[600] text-xl">
+            <h1 className="font-[600] text-lg">
               ARE YOU CURIOUS ABOUT THE POSSIBILITIES FOR YOUR CAR?
             </h1>
             <img
