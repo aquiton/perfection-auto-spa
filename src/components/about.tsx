@@ -31,7 +31,7 @@ export const About = ({
                 ⭐️ and countless returning customers.
               </p>
             </div>
-            <div className="flex justify-evenly w-full gap-4">
+            <div className="flex flex-col sm:flex-row justify-evenly w-full gap-4">
               <div className="w-1/2">
                 <h1 className="font-[700] text-sm md:text-lg">
                   🏠 Mobile Convenience
