@@ -32,7 +32,7 @@ export const About = ({
               </p>
             </div>
             <div className="flex flex-col sm:flex-row justify-evenly w-full gap-4">
-              <div className="w-1/2">
+              <div className="w-full sm:w-1/2">
                 <h1 className="font-[700] text-sm md:text-lg">
                   🏠 Mobile Convenience
                 </h1>
@@ -42,11 +42,11 @@ export const About = ({
                   your driveway — saving you time, energy, and hassle.
                 </p>
               </div>
-              <div className="w-1/2">
+              <div className="w-full sm:w-1/2">
                 <h1 className="font-[700] md:text-lg"> 🚗 What We Do</h1>
                 We offer a full range of professional detailing services,
                 including:
-                <div className="flex flex-wrap md:gap-2 text-sm">
+                <div className="flex flex-wrap gap-1 md:gap-2 text-sm">
                   <p>✅ Interior Detailing</p>
                   <p>✅ Exterior Detailing</p>
                   <p>✅ Paint Corrections</p>
