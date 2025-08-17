@@ -41,7 +41,7 @@ export const Portfolio = ({
         />
         <div className="m-4 md:m-10">
           <p className="text-fuchsia-700">LOOK AT THE REVIEWS</p>
-          <p className="text-3xl font-[600] w-1/2">The Gallery</p>
+          <p className="text-3xl font-[600] w-full md:w-1/2">The Gallery</p>
         </div>
         <div className="flex flex-wrap justify-center gap-4 py-4 w-full">
           {imagePaths.map((src, idx) => (
@@ -61,7 +61,7 @@ export const Portfolio = ({
           ))}
         </div>
         <div className="py-8">
-          <p className="text-3xl font-[600] mx-4 md:mx-10">
+          <p className="text-2xl md:text-3xl font-[600] mx-4 md:mx-10">
             What Our Customers Say
           </p>
           <div className="relative flex items-center justify-center p-4">

@@ -45,7 +45,7 @@ export const Contact = ({
         </div>
         <div className="md:w-1/2 text-center flex flex-col gap-4 justify-center items-center">
           <h1 className="font-[700] text-2xl">OPENING HOURS</h1>
-          <div className="flex flex-col gap-2 w-2/3 md:w-1/2 text-[14px] md:text-xl">
+          <div className="flex flex-col gap-1 md:gap-2 w-2/3 md:w-1/2 text-[14px] md:text-xl">
             <div className="flex justify-between items-center">
               <p>Monday:</p>
               <p>8:00AM - 8:00 PM</p>
@@ -78,13 +78,13 @@ export const Contact = ({
         </div>
       </div>
       <div className="flex items-center gap-4">
-        <p className="text-xl font-[600]">Check Us Out On Facebook!</p>
+        <p className="md:text-xl font-[600]">Check Us Out On Facebook!</p>
         <a
           href="https://www.facebook.com/perfectionautospas/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaFacebook className="size-8" />
+          <FaFacebook className="size-6 md:size-8" />
         </a>
       </div>
 

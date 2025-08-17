@@ -16,7 +16,7 @@ export const Services = ({
         <div className="flex items-center justify-between w-full flex p-4">
           <div className="">
             <p className="text-fuchsia-700">OUR SERVICES</p>
-            <p className="text-3xl font-[600] w-2/3 text-black">
+            <p className="md:text-3xl font-[600] w-full md:w-2/3 text-black">
               A FULL RANGE OF PREMIUM DETAILING SERVICES
             </p>
           </div>
