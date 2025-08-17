@@ -18,11 +18,13 @@ export const About = ({
               alt="Picture of Canyon"
             />
           </div>
-          <div className="flex flex-col gap-4 w-full md:w-1/2  rounded-lg p-4 h-fit">
+          <div className="flex flex-col  w-full md:w-1/2 rounded-lg p-4 h-fit">
             <div className="">
               <p className="text-fuchsia-700">ABOUT ME</p>
-              <p className="md:text-3xl font-[600] w-1/2">Meet the Owner 👋</p>
-              <p className="md:text-lg py-2">
+              <p className="md:text-3xl font-[600] md:w-1/2">
+                Meet the Owner 👋
+              </p>
+              <p className="md:text-lg py-1">
                 Hi, I’m <b>Canyon Upston</b>, founder of Perfection Auto Spa.
                 For the past 5 years, I’ve been dedicated to delivering
                 high-quality auto detailing with a focus on care, convenience,
@@ -31,9 +33,9 @@ export const About = ({
                 ⭐️ and countless returning customers.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row justify-evenly w-full gap-4">
+            <div className="flex flex-col text-xs md:text-[16px] sm:flex-row justify-evenly w-full gap-4">
               <div className="w-full sm:w-1/2">
-                <h1 className="font-[700] text-sm md:text-lg">
+                <h1 className="font-[700] py-1 md:text-lg">
                   🏠 Mobile Convenience
                 </h1>
                 <p>
@@ -44,9 +46,11 @@ export const About = ({
               </div>
               <div className="w-full sm:w-1/2">
                 <h1 className="font-[700] md:text-lg"> 🚗 What We Do</h1>
-                We offer a full range of professional detailing services,
-                including:
-                <div className="flex flex-wrap gap-1 md:gap-2 text-sm">
+                <p className="sm:py-2">
+                  We offer a full range of professional detailing services,
+                  including:
+                </p>
+                <div className="flex flex-wrap gap-1 md:gap-2 text-xs md:text-sm">
                   <p>✅ Interior Detailing</p>
                   <p>✅ Exterior Detailing</p>
                   <p>✅ Paint Corrections</p>
